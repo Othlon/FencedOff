@@ -18,10 +18,13 @@ public class FOFenceModel extends ModelBase
 
     public FOFenceModel( float par1 )
     {
+        textureWidth  = 64;
+        textureHeight = 32;
+
         PostA = new ModelRenderer( this, 12, 12 );
         PostA.setTextureSize( 64, 32 );
         PostA.addBox( -2F, -8F, -2F, 4, 16, 4);
-        PostA.setRotationPoint( 8F, 16F, -8F );
+        PostA.setRotationPoint( 0F, 0F, 0F );
     }
 
     public void render(Entity par1Entity, float par2, float par3, float par4, float par5, float par6, float par7)

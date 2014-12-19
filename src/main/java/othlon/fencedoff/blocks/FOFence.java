@@ -15,6 +15,8 @@ public class FOFence extends BlockContainer{
         super(Material.wood);
         this.setHarvestLevel("axe", 0);
         this.setCreativeTab(FencedOff.tabFencedOff);
+        this.setBlockBoundsForItemRender();
+        this.setBlockName("farmfence");
     }
 
     @Override

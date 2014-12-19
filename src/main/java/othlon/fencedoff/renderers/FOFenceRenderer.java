@@ -15,8 +15,8 @@ import othlon.fencedoff.tileentities.FOFenceTileEntity;
  */
 public class FOFenceRenderer extends TileEntitySpecialRenderer{
 
-    FOFenceModel model    = new FOFenceModel();
-    ResourceLocation  tex = new ResourceLocation("fencedoff", "textures/models/FencePost.png");
+    FOFenceModel      model   = new FOFenceModel();
+    ResourceLocation  tex     = new ResourceLocation("fencedoff", "textures/blocks/FencePost.png");
 
     public FOFenceRenderer(){
 
